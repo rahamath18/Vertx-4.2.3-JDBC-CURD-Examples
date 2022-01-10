@@ -1,0 +1,23 @@
+{ 
+  app-config {
+		  master-config {
+	    	client = [
+	    		{
+					name = "abcd corporation"
+					code = "abcd"
+					location = "usa" 
+				},
+				{
+					name = "xyz corporation"
+					code = "xyz"
+					location = "Europe" 
+				},
+				{
+					name = "klmn corporation"
+					code = "klmn"
+					location = "india" 
+				}
+			]
+	    }
+    }
+}

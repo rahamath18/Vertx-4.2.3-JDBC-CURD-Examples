@@ -1,0 +1,34 @@
+# Database configurations for HSQL Mem
+#connection.driver_class = "org.hsqldb.jdbcDriver"
+#connection.url = "jdbc:hsqldb:mem:test?shutdown=true"
+#connection.username = "SA"
+#connection.password = ""
+#connection.max_pool_size = "30"
+
+# Database configurations for HSQL DB Server
+connection.driver_class = "org.hsqldb.jdbcDriver"
+connection.url = "jdbc:hsqldb:hsql://localhost/mycompany"
+connection.username = "SA"
+connection.password = ""
+connection.max_pool_size = "30"
+
+# Database configurations for MySQL DB
+#connection.driver_class = "com.mysql.jdbc.Driver"
+#connection.url = "jdbc:mysql://localhost:3306/mycompany"
+#connection.username = "root"
+#connection.password = "password"
+#connection.max_pool_size = "30"
+
+# Database configurations for PostgreSQL DB
+#connection.driver_class = "org.postgresql.Driver"
+#connection.url = "jdbc:postgresql://127.0.0.1:5432/mycompany"
+#connection.username = "postgres"
+#connection.password = "password"
+#connection.max_pool_size = "30"
+
+# Database configurations for Oracle 19.3 DB
+#connection.driver_class = "oracle.jdbc.driver.OracleDriver"
+#connection.url = "jdbc:oracle:thin:@localhost:1521:orcl"
+#connection.username = "mycompany"
+#connection.password = "password"
+#connection.max_pool_size = "30"
